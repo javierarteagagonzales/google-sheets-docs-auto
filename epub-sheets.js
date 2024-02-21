@@ -3,7 +3,7 @@ function Listar_Archivos_OE_nivelEpub() {
         var hoja = SpreadsheetApp.getActive().getSheetByName("hoja1");
 
         if (!hoja) {
-            throw new Error("La hoja con el nombre 'PDF' no se encontró.");
+            throw new Error("La hoja con el nombre 'hoja1' no se encontró.");
         }
 
         var cabecera = hoja.getRange("A1:G1");
